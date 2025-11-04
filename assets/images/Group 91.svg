@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116.984" height="110.362" viewBox="0 0 116.984 110.362">
+  <g id="Group_91" data-name="Group 91" transform="translate(-413.71 -1943.587)">
+    <path id="Path_253" data-name="Path 253" d="M99.03,161.862c-2.455,5.156-1.6,15.81-.255,24.088,1.959,12.09,1.985,13.759-1.375,13.454-16.519-4.429-18.1-23.924-18.714-28.34-1.118-8.061-7.518-12.793-7.95-19.691-.664-10.585-1.039-28.38-.425-34.017,1.049-9.618,4.985-13.091,15.3-14.047a22.187,22.187,0,0,1,11.016,2.879c7.078,3.659,10.341,7.779,18.57,7.407-.022.543-.037,1.089-.037,1.637a39.05,39.05,0,0,0,34.711,38.805c-1.584,5.558-6.514,10.043-7.482,17.026-.613,4.416-2.2,23.913-18.714,28.34-3.36.3-3.334-1.364-1.375-13.454,1.411-8.706,1.931-19.542-.6-24.9-3.762-7.969-18.339-8.281-22.669.811Zm16.4-51.244a26.33,26.33,0,0,1-7.909-2.385c-1.933-1.008-.815-2.889.617-2.89a55.62,55.62,0,0,0,8.383-.368,38.733,38.733,0,0,0-1.091,5.643Z" transform="translate(343.71 1854.513)" fill="#561d5e" fill-rule="evenodd"/>
+    <g id="Group_90" data-name="Group 90" transform="translate(461.721 1943.587)">
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(0 0)" fill="none" stroke="#561d5e" stroke-width="5">
+        <circle cx="34.487" cy="34.487" r="34.487" stroke="none"/>
+        <circle cx="34.487" cy="34.487" r="31.987" fill="none"/>
+      </g>
+      <line id="Line_1" data-name="Line 1" y2="20.871" transform="translate(32.59 17.842)" fill="none" stroke="#561d5e" stroke-linecap="round" stroke-width="6"/>
+      <line id="Line_2" data-name="Line 2" x1="21.71" transform="translate(32.59 38.713)" fill="none" stroke="#561d5e" stroke-linecap="round" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
