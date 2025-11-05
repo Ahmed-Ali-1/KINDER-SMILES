@@ -59,17 +59,17 @@
     color: var(--dark-purple);
 }
 
-.navbarBtn {
-    padding: 6px 26px;
+.transparentBtn {
+    padding: 8px 26px;
     border: 2px solid var(--dark-purple);
     color: var(--dark-purple);
     background: transparent;
     border-radius: 25px;
     font-family: "poppinsSemiBold";
-    font-size: 11px;
+    font-size: 10px;
 }
 
-.navbarBtn:hover {
+.transparentBtn:hover {
     background-color: var(--dark-purple);
     color: var(--white-color);
 
@@ -130,25 +130,41 @@
 }
 
 .bottom_item {
+    position: relative;
     display: flex;
     flex-direction: column;
-    font-family: "poppinsMedium";
     align-items: center;
     color: var(--white-color);
-    font-size: 12px;
+    font-family: "poppinsMedium";
+    font-size: 10px;
+    letter-spacing: 0.4px;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 .bottom_item i {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 6px;
+    transition: all 0.4s ease;
+    opacity: 1;
+    transform: translateY(0);
 }
 
+.bottom_item span {
+    transition: all 0.4s ease;
+    transform: translateY(0);
+}
 
+.bottom_item:hover i {
+    transform: translateY(6px);
+    opacity: 0;
+}
 
+.bottom_item:hover span {
+    transform: translateY(-16px);
+}
 
 /* --------------FEATURE-CARD-SECTION--------- */
-
 
 .feature-card_wrapper {
     padding: 100px 0;
@@ -162,6 +178,7 @@
     padding: 60px 20px;
     position: relative;
     transition: 0.3s ease;
+    height: 240px;
 
 }
 
@@ -213,7 +230,7 @@
 .feature-front h5 {
     color: var(--dark-purple);
     font-family: "poppinsBold";
-    font-size: 15px;
+    font-size: 17px;
     line-height: 1.4;
 }
 
@@ -223,7 +240,7 @@
     margin-bottom: 20px;
     font-family: "poppinsMedium";
     line-height: 20px;
-    padding: 0 60px;
+    padding: 0 30px;
 }
 
 .feature-back .btn {
@@ -240,4 +257,58 @@
 .feature-back .btn:hover {
     background-color: var(--dark-purple);
     color: var(--white-color);
+}
+
+/* ----------WELCOME-SECTION--------- */
+
+.main_heading {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main_heading h1 {
+    font-family: "poppinsSemiBold";
+    font-size: 24px;
+    color: #3d0e58;
+    line-height: 1.4;
+}
+
+.circle_img {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: -34%;
+}
+
+.circle_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.welcome_rightSide P {
+    font-family: "poppinsMedium";
+    margin-bottom: 26px;
+    color: var(--grey-color);
+    line-height: 30px;
+    font-size: 10px;
+}
+
+.colorBtn {
+    background-color: var(--dark-purple);
+    padding: 8px 26px;
+    border: 2px solid var(--dark-purple);
+    color: var(--white-color);
+    border-radius: 25px;
+    font-family: "poppinsBold";
+    font-weight: 100;
+    font-size: 10px;
+
+}
+
+.colorBtn:hover {
+    background: transparent;
+    color: var(--dark-purple);
 }
