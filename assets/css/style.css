@@ -33,6 +33,7 @@
     --light-grey: #3333339C;
 }
 
+/* ----------NAV-SECTION--------- */
 
 .navbar-brand {
     color: var(--dark-purple);
@@ -283,7 +284,7 @@
     position: relative;
     width: 640px;
     height: 640px;
-    left: -36%;
+    left: -42%;
 }
 
 .circle_img img {
@@ -302,13 +303,14 @@
 
 .colorBtn {
     background-color: var(--dark-purple);
-    padding: 8px 26px;
+    padding: 10px 35px;
     border: 2px solid var(--dark-purple);
     color: var(--white-color);
     border-radius: 25px;
     font-family: "poppinsBold";
     font-weight: 100;
     font-size: 10px;
+    letter-spacing: 0.6px;
 
 }
 
@@ -316,7 +318,6 @@
     background: transparent;
     color: var(--dark-purple);
 }
-
 
 /* ----------SERVICE-SECTION-------- */
 
@@ -332,7 +333,7 @@
 .overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(73, 30, 80, 0.2);
     border-radius: 10px;
     transition: all 0.4s ease;
 }
@@ -397,9 +398,8 @@
 }
 
 .service_back:hover {
-    background-color: rgba(123, 67, 151, 0.8);
+    background-color: rgba(73, 30, 71, 0.6);
 }
-
 
 /* -----------DR-SECTION---------- */
 
@@ -433,7 +433,7 @@
 
 .dr_circle {
     position: relative;
-    right: -26%;
+    right: -32%;
     width: 640px;
     height: 640px;
 }
@@ -460,7 +460,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(78, 0, 110, 0.8);
+    background: rgba(100, 45, 110, 0.9);
     z-index: 1;
 }
 
@@ -490,8 +490,11 @@
     color: var(--white-color);
 }
 
-/* --------- */
+/* ---------DR=SECTION-------- */
 
+.dr-section{
+    margin: 80px 0  ;
+}
 .dr-headind h2 {
     text-align: center;
     font-size: 20px;
@@ -500,20 +503,7 @@
 
 }
 
-.dr_circle_image {
-    position: relative;
-    width: 640px;
-    height: 640px;
-    left: -4%;
-}
-
-.dr_circle_image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* ----------- */
+/* -----TESTIMONIAL-SECTION------ */
 
 .testimonial_head h3 {
     font-size: 26px;
@@ -570,7 +560,6 @@
 
 }
 
-
 .testimonial_btn:hover {
     background-color: #fff;
     color: #5b2675;
@@ -578,7 +567,7 @@
 
 .carousel_imgDiv img {
     width: 200px;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .carousel_imgDiv h6 {
@@ -603,59 +592,93 @@
     letter-spacing: 0.4px;
 }
 
-
-
+/* ------------FORN-SECTION----------- */
 
 .appointment-form {
     background-color: #fff;
-    border-radius: 25px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     max-width: 1000px;
-    margin: 60px auto;
-    padding: 50px;
+    margin: 110px auto;
+    padding: 50px 100px;
 }
 
 .appointment-form h3 {
-    color: #4b1656;
-    font-weight: 700;
+    color: var(--dark-purple);
+    font-family: "poppinsSemiBold";
+    text-transform: uppercase;
+    font-size: 24px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .form-control,
 .form-select {
+    text-transform: uppercase;
+    font-family: "poppinsMedium";
     border: none;
     border-bottom: 1px solid #444;
+    font-size: 10px;
+    color: var(--grey-color);
     border-radius: 0;
     box-shadow: none !important;
 }
 
-.form-control:focus,
-.form-select:focus {
-    border-color: #4b1656;
-}
-
-label {
-    font-size: 11px;
-    text-transform: uppercase;
-    color: #555;
-    margin-bottom: 3px;
-    letter-spacing: 0.5px;
-}
-
 .submit-btn {
     display: block;
-    background-color: #4b1656;
-    color: #fff;
-    border: none;
-    border-radius: 25px;
-    padding: 10px 40px;
     margin: 25px auto 0;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    padding: 11px 45px;
 }
 
-.submit-btn:hover {
-    background-color: #5f1f6e;
+/* ---------FOOTER-SECTION-------- */
+
+.contact-section {
+    background-color: var(--dark-purple);
+    color: #fff;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contact-section h2 {
+    font-family: "poppinsSemiBold";
+    font-size: 22px;
+    margin-bottom: 28px;
+}
+
+.contact-section p {
+    color: #ddd;
+    font-family: "poppinsMedium";
+    font-size: 10px;
+    max-width: 65%;
+    line-height: 2.6;
+    margin-bottom: 15px;
+}
+
+.contact-info i {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.map-circle {
+    width: 400px;
+    height: 400px;
+
+}
+
+.map-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hello img {
+    position: absolute;
+    right: -9%;
+    bottom: -20%;
+    width: 340px;
+    height: 340px;
+
 }
